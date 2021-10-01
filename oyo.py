@@ -1,7 +1,6 @@
 import scrapy
 import json 
 
-
 class OyoSpider(scrapy.Spider):
     name = 'oyo'
     allowed_domains = ['www.oyorooms.com']
