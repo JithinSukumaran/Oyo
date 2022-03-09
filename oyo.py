@@ -25,4 +25,3 @@ class OyoSpider(scrapy.Spider):
                 'Images':hotel.get('images'),
                 'Oyo ID':hotel.get('oyo_id')
             }
-
